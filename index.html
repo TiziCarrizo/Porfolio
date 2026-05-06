@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiziana Carrizo — CDO & Frontend Developer</title>
+  <meta name="description" content="Portfolio de Tiziana Carrizo — CDO & Co-Founder de Synaptia. Frontend Developer, UX Designer y Data Analyst.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+</head>
+<body>
+
+  <!-- Liquid Ether background -->
+  <div id="liquid-ether-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">tizi.</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">Sobre Mí</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#education">Educación</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ══════════ HERO ══════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Disponible para nuevos desafíos
+      </div>
+      <h1>Hola, soy <br><span class="hero-title-main">Tiziana Carrizo</span></h1>
+      <p class="hero-subtitle">
+        <span class="typing-wrapper"><span id="typingText"></span><span class="typing-cursor"></span></span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ══════════ ABOUT ══════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Sobre Mí</span>
+        <h2 class="section-title">Transformando ideas en experiencias digitales</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text fade-up">
+          <p>Soy <span class="highlight">futura Ingeniera en Sistemas</span> de la UTN Córdoba con una fuerte pasión por el diseño UX/UI y el desarrollo frontend. Como <span class="highlight">CDO & Co-Founder de Synaptia</span>, lidero el diseño de experiencias digitales, asegurando usabilidad y estética en cada producto.</p>
+          <p>También me especializo en <span class="highlight">análisis de datos</span> con SQL y Power BI, y en la <span class="highlight">automatización de procesos</span> con herramientas como n8n, buscando siempre optimizar flujos de trabajo.</p>
+          <div class="about-stats">
+            <div class="stat-card fade-up fade-up-delay-1">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Proyectos</span>
+            </div>
+            <div class="stat-card fade-up fade-up-delay-2">
+              <span class="stat-number">1+</span>
+              <span class="stat-label">Año exp.</span>
+            </div>
+            <div class="stat-card fade-up fade-up-delay-3">
+              <span class="stat-number">CDO</span>
+              <span class="stat-label">Co-Founder</span>
+            </div>
+            <div class="stat-card fade-up fade-up-delay-4">
+              <span class="stat-number">UX</span>
+              <span class="stat-label">Especialización</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-qualities fade-up">
+          <div class="quality-card fade-up fade-up-delay-1">
+            <div class="quality-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <div class="quality-info"><h4>Detallista</h4><p>Cada pixel cuenta en la experiencia</p></div>
+          </div>
+          <div class="quality-card fade-up fade-up-delay-2">
+            <div class="quality-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </div>
+            <div class="quality-info"><h4>Proactiva</h4><p>Siempre buscando mejorar y aprender</p></div>
+          </div>
+          <div class="quality-card fade-up fade-up-delay-3">
+            <div class="quality-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="quality-info"><h4>Team Player</h4><p>Colaboración como motor de innovación</p></div>
+          </div>
+          <div class="quality-card fade-up fade-up-delay-4">
+            <div class="quality-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div class="quality-info"><h4>Adaptable</h4><p>De Salta a Córdoba, de Argentina a Italia</p></div>
+          </div>
+          <div class="quality-card fade-up fade-up-delay-4">
+            <div class="quality-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg>
+            </div>
+            <div class="quality-info"><h4>Análisis de Datos</h4><p>SQL, Power BI y automatización con n8n</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- ══════════ PROJECTS ══════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Proyectos</span>
+        <h2 class="section-title">Lo que estamos construyendo</h2>
+        <p class="section-desc">Productos digitales en los que participé como frontend developer y diseñadora UX/UI</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Synaptia -->
+        <div class="electric-border" data-electric>
+          <div class="eb-canvas-wrap"><canvas></canvas></div>
+          <div class="eb-glow"><div class="eb-glow-inner"></div><div class="eb-glow-outer"></div></div>
+          <div class="eb-bg-glow"></div>
+          <div class="project-card fade-up fade-up-delay-1">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <span class="project-badge">Startup</span>
+            <h3 class="project-title">Synaptia</h3>
+            <p class="project-subtitle">Software House & Transformación Digital</p>
+            <p class="project-desc">Nuestra startup de desarrollo de software. Transformamos negocios a través de soluciones de digitalización innovadoras y personalizadas.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Next.js</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">UX Design</span>
+            </div>
+            <a href="https://synaptiasolution.com/" target="_blank" rel="noopener" class="project-link">Visitar sitio web →</a>
+          </div>
+        </div>
+
+        <!-- Syncare -->
+        <div class="electric-border" data-electric>
+          <div class="eb-canvas-wrap"><canvas></canvas></div>
+          <div class="eb-glow"><div class="eb-glow-inner"></div><div class="eb-glow-outer"></div></div>
+          <div class="eb-bg-glow"></div>
+          <div class="project-card fade-up fade-up-delay-2">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <span class="project-badge">Producto</span>
+            <h3 class="project-title">Syncare</h3>
+            <p class="project-subtitle">Gestión Integral de Geriátricos</p>
+            <p class="project-desc">Software completo para la gestión de geriátricos con módulos de residentes, responsables, stock de medicamentos, cronograma, actividades y empleados.</p>
+            <div class="project-tags">
+              <span class="project-tag">Residentes</span>
+              <span class="project-tag">Medicamentos</span>
+              <span class="project-tag">Actividades</span>
+              <span class="project-tag">Empleados</span>
+            </div>
+            <span class="project-link" style="cursor:default; opacity:0.5;">Desarrollado por Synaptia</span>
+          </div>
+        </div>
+
+        <!-- Synapse -->
+        <div class="electric-border" data-electric>
+          <div class="eb-canvas-wrap"><canvas></canvas></div>
+          <div class="eb-glow"><div class="eb-glow-inner"></div><div class="eb-glow-outer"></div></div>
+          <div class="eb-bg-glow"></div>
+          <div class="project-card fade-up fade-up-delay-3">
+            <div class="project-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+            </div>
+            <span class="project-badge">En Desarrollo</span>
+            <h3 class="project-title">Synapse</h3>
+            <p class="project-subtitle">Plataforma de Ideas e Inversiones</p>
+            <p class="project-desc">Plataforma que conecta emprendedores con inversores. Un espacio donde las ideas encuentran el capital necesario para hacerse realidad.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Fintech</span>
+              <span class="project-tag">Matchmaking</span>
+              <span class="project-tag">UX Design</span>
+            </div>
+            <span class="project-link" style="cursor:default; opacity:0.5;">Próximamente</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ EXPERIENCE ══════════ -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Experiencia</span>
+        <h2 class="section-title">Mi trayectoria</h2>
+      </div>
+      <div class="experience-layout">
+        <div class="timeline">
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2024 — Presente</span>
+            <h3 class="timeline-title">CDO & Co-Founder</h3>
+            <p class="timeline-company">Synaptia</p>
+            <p class="timeline-desc">Lidero el diseño de experiencias digitales, enfocándome en la usabilidad y estética de cada sistema. También capacito a usuarios finales para la correcta adopción de nuestras soluciones.</p>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">2025 — 2026</span>
+            <h3 class="timeline-title">Análisis de Datos & Automatización</h3>
+            <p class="timeline-company">NaranjaX</p>
+            <p class="timeline-desc">Participé en el programa de innovación social, donde me enfoqué en el análisis de datos con SQL y Power BI para la toma de decisiones estratégicas, y en la automatización de procesos internos utilizando n8n para optimizar flujos de trabajo del área de sustentabilidad.</p>
+          </div>
+          <div class="timeline-item fade-up">
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">Dic 2025 — Mar 2025</span>
+            <h3 class="timeline-title">Experiencia en Italia</h3>
+            <p class="timeline-company">Italia</p>
+            <p class="timeline-desc">Viví en Italia donde trabajé en gastronomía, aprendí el idioma y desarrollé habilidades de adaptación cultural en un entorno completamente nuevo.</p>
+          </div>
+        </div>
+        <div class="photo-reveal fade-up">
+          <div class="photo-container">
+            <img src="tizi.png" alt="Tiziana Carrizo" class="photo-img">
+            <div class="photo-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ EDUCATION & LANGUAGES ══════════ -->
+  <section id="education">
+    <div class="container">
+      <div class="section-header fade-up">
+        <span class="section-label">Formación</span>
+        <h2 class="section-title">Educación e Idiomas</h2>
+      </div>
+      <div class="edu-grid">
+        <div class="education-card fade-up">
+          <div class="edu-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 2 3 3 6 3s6-1 6-3v-5"/></svg>
+          </div>
+          <h3 class="edu-degree">Ingeniería en Sistemas de Información</h3>
+          <p class="edu-school">Universidad Tecnológica Nacional — Córdoba</p>
+          <p class="edu-year">Graduación esperada: Diciembre 2026</p>
+          <div class="edu-progress">
+            <div class="edu-progress-bar"></div>
+          </div>
+          <p class="edu-progress-label">90% completado</p>
+        </div>
+        <div class="languages-card fade-up fade-up-delay-1">
+          <h3 class="languages-title">Idiomas</h3>
+          <div class="language-item">
+            <div class="lang-header">
+              <span class="lang-flag">ES</span>
+              <span class="lang-name">Español</span>
+              <span class="lang-level">Nativo</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:100%"></div></div>
+          </div>
+          <div class="language-item">
+            <div class="lang-header">
+              <span class="lang-flag">EN</span>
+              <span class="lang-name">Inglés</span>
+              <span class="lang-level">Intermedio</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:60%"></div></div>
+          </div>
+          <div class="language-item">
+            <div class="lang-header">
+              <span class="lang-flag">IT</span>
+              <span class="lang-name">Italiano</span>
+              <span class="lang-level">Intermedio</span>
+            </div>
+            <div class="lang-bar"><div class="lang-fill" style="width:60%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Trabajemos juntos</h3>
+          <p>Estoy abierta a nuevas oportunidades y colaboraciones.</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/tiziana-carrizo" target="_blank" rel="noopener" class="footer-link" aria-label="LinkedIn">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://github.com/TiziCarrizo" target="_blank" rel="noopener" class="footer-link" aria-label="GitHub">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+          </a>
+          <a href="mailto:tiziana.carrizo@email.com" class="footer-link" aria-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Tiziana Carrizo. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="liquid-ether.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
