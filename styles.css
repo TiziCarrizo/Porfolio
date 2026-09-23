@@ -251,7 +251,7 @@ section { padding: 100px 0; position: relative; }
 .tech-item:hover span { opacity: 1; }
 
 /* ══════════ PROJECTS ══════════ */
-.projects-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.projects-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; }
 
 /* Electric border wrapper */
 .electric-border {
